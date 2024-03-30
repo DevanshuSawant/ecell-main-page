@@ -1,6 +1,6 @@
 // const desktopUrl = "./src/assets/video/homevideo.mp4";
-const desktopUrl = new URL("../assets/video/homevideo.mp4", import.meta.url);
-const mobileUrl =  new URL("../assets/video/Main_Page_Phone.mp4", import.meta.url);
+const desktopUrl = new URL("../assets/video/home_video_new.webm", import.meta.url);
+const mobileUrl =  new URL("../assets/video/Main_Page_Phone.webm", import.meta.url);
 window.addEventListener("DOMContentLoaded", () => {
   let video = document.querySelector("#hero-video");
 
